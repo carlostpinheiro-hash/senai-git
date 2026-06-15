@@ -1,0 +1,14 @@
+<script>
+nota1 = parseFloat(prompt("Informar a 1a nota"));
+nota2 = parseFloat(prompt("Informar a 2a nota"));
+nota3 = parseFloat(prompt("Informar a 3a nota"));
+media = (nota1 + nota2 + nota3) / 3);
+document.write("Média: " + media + "<br>");
+if(media >= 6)
+	document.write("Situação: Aprovado");
+if(media >= 3 && media < 6)
+	document.write("Situação: Exame");
+if(media < 3)
+	document.write("Situação: Reprovado");
+
+</script>
